@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+
+    padding: 0px;
+
+    box-sizing: border-box;
+
+}
+html,body{
+
+    margin: 0px;  
+
+    height: 100vh!important;
+
+
+}
+
+.container-fluid{
+
+    width: 100vh;
+
+    height: 100vh;
+
+    padding: 0px!important;
+   
+}
+
+.row{
+
+    height: 100vh;
+    overflow: hidden;
+}
+
+.col-2{
+
+    background-color:  #8b7355;
+    
+}
+
+.box .col-2{
+
+    padding: 0;
+
+}
+
+#navbarproperty ul li{
+
+    font-size: 2rem;
+    
+    color: black;
+}
+
+.hr{
+
+    background-color : black;
+    
+}
+
+.col-10{
+
+    background-color: #deb887 ;
+
+}
+
+#images img{
+
+    object-fit: contain;
+
+    width: 40%;
+
+    padding: 20px;
+}
+
+#images-info p{
+
+    justify-content: center;
+
+    text-align: center;
+
+    font-size: small;
+
+ }
+
+.milvafont{
+
+    font-weight: bold;
+
+    color: #000;
+
+}
+
+.ul li{
+
+   padding: 10px;  
+
+}
+.btn-outline-dark{
+
+    width: 100%;
+ 
+    
+}
+
+.ul{
+    padding-top: 50px;
+    
+    list-style-type: none;
+}
+
+.ul li a{
+
+    text-decoration: none;
+}
+
+.ul .btn a{
+
+    padding-left: 3rem;
+
+}
+
+.ul .btn .ahome{
+
+    padding-left: 5rem;
+}
+.ul .btn .ahome:hover{
+
+    padding-left: 5rem;
+    color: red!important;
+}
+
+.ul .btn .afavorite:hover{
+    color: green!important;
+}
+
+.ul .fa-heart:hover{
+    color: green!important;
+}
+
+#categ .bi-heart-fill{
+
+    position: fixed;
+    
+    left: 1rem;
+
+}
+#categ .bi-heart-fill:hover{
+
+    color: green;
+}
+
+.rounded-circle{
+
+    border-radius: 50%!important;
+
+}
+.bi-x-circle{
+
+    position: fixed;
+
+    left: 14rem;
+
+}
+
+.bi-x-circle:hover{
+
+    color: white;
+}
+
+#categ li{
+    background-color: #8b7355;
+
+    text-align: center;
+
+    color: black;
+
+    border-width: thin ;
+
+    border-color: black;
+
+    border-radius: 20px;
+
+
+    
+   
+} 
+
+#categ li:hover{
+
+    color: #8b7355 ; 
+
+    background-color: black;
+
+    border: 1px;
+
+    cursor: pointer;
+}
+
+#nav-bottom{
+
+    padding-left: 1.5rem;
+
+}
+
+.newcategory{
+
+    position: fixed; 
+
+    bottom: 0px; 
+
+    width: 100%;
+
+    padding-bottom: 3.5rem;
+
+    right: 0;
+    
+}
+
+#input-categ{
+
+    padding-bottom: 0px;
+  
+     font:lighter;
+
+     font-size: medium;
+     
+     width: 10%;
+
+     border: 0;
+
+     height: 1.rem;
+
+     margin: 2;
+
+     padding-left: 20px;
+
+     justify-content: center;
+ 
+     min-width: 0;
+
+     background:none ;
+
+     box-sizing: border-box;
+
+     border: none;
+
+     border-bottom: 1px solid black;
+
+     animation-name: mui-auto-fill-cancel;
+
+     letter-spacing: inherit;
+
+     animation-duration: 10ms;
+
+     -webkit-tap-highlight-color: transparent;
+     
+     outline: 0px;
+    
+}
+
+#bottom-main-element {
+
+    position: fixed;      
+    bottom: 0px; 
+    width: 100%;
+    padding-bottom: 3.5rem;
+    justify-content: center;
+}
+
+
+#input-categ-second{
+
+    padding-bottom: 0px;
+
+    font:lighter;
+
+    font-size: medium;
+    
+    width: 80%;
+
+    border: 0;
+
+    height: 1rem;
+
+    margin: 2;
+
+    padding-left: 20px;
+
+    justify-content: center;
+
+    min-width: 0;
+
+    background:none ;
+
+    box-sizing: border-box;
+
+    border: none;
+
+    border-bottom: 1px solid black;
+
+    animation-name: mui-auto-fill-cancel;
+
+    letter-spacing: inherit;
+
+    animation-duration: 10ms;
+
+    -webkit-tap-highlight-color: transparent;
+    
+    outline: 0px;
+}
+
+#todohead{
+
+    text-align: center;
+    font-style: italic;
+    font-style: bold;
+    
+}
+#maintodolistcontent {
+    overflow: auto;
+}
+
+
+#maintodolistcontent li{
+    background-color: #8b7355;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+ 
+
+}
+#maintodolistcontent li:hover{
+    background-color: black;
+    color: #8b7355;
+}
+
+.filter{
+    position: fixed;
+    right: 8rem;
+    color: green;
+}
+
+.delete{
+    position: fixed;
+    left: 25rem;
+}
+
+#add-body{
+    cursor: pointer;
+}
+
+
+
